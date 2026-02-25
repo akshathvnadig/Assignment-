@@ -16,4 +16,4 @@ public class Q1{
         }
         sc.close();
     }
-}
+ }
