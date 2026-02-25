@@ -1,6 +1,5 @@
 package M3;
 
-// Method Overloading Example
 class Calculator {
 
     int add(int a, int b) {
@@ -12,7 +11,6 @@ class Calculator {
     }
 }
 
-// Method Overriding Example
 class driver {
     void sound() {
         System.out.println("Animal makes a sound");
@@ -28,12 +26,10 @@ class cat extends driver {
 public class Q4{
     public static void main(String[] args) {
 
-        // Overloading
         Calculator calc = new Calculator();
         System.out.println("Sum of 2 numbers: " + calc.add(5, 10));
         System.out.println("Sum of 3 numbers: " + calc.add(5, 10, 15));
 
-        // Overriding
         driver a;
         a = new cat();
         a.sound();
